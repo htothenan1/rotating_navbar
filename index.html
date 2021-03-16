@@ -3,15 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
-    <h2>Hello</h2>
-    <h2>Hello</h2>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit distinctio delectus commodi vel, nisi eveniet hic. Ea soluta quae ducimus neque a quos! Perspiciatis, dolorum sint. Neque, voluptates mollitia. Cupiditate eaque vel corrupti accusantium nisi aut recusandae ducimus odit, tenetur molestias sapiente placeat deserunt veritatis sequi nesciunt nam, corporis, officiis porro consequuntur. Nam deserunt numquam, ad, tempora itaque veniam ducimus possimus facilis ipsa distinctio cumque soluta! Quam dolorem labore voluptates! Numquam perferendis ab nobis tempore suscipit? Sed maxime magni, repudiandae, non aliquam rerum neque enim dignissimos debitis, nostrum odio voluptate doloremque nulla maiores nesciunt sint quis possimus distinctio illum nihil!</p>
+
+            <h3>My Dog</h3>
+            <img src="https://images.unsplash.com/photo-1592028545328-7ff4385e450f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="doggy">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, cum voluptatem veniam magnam expedita dolore dolores voluptas provident unde praesentium sapiente deleniti minima? Ut dolore unde impedit fugit assumenda obcaecati eveniet qui, sint illum maxime quibusdam vero sit voluptates, minima aliquam iure, temporibus excepturi architecto placeat? Ad dolorum magnam excepturi, ratione error aliquam deserunt nesciunt. Excepturi illo dolore officiis officia maxime. Beatae illum natus, fuga sunt dicta illo? Beatae, inventore quis laudantium voluptate excepturi eligendi.</p>
+        </div>
+    </div>
     
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
+
     <script src="script.js"></script>
 </body>
 </html>
